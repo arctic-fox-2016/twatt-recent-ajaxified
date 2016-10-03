@@ -6,24 +6,17 @@
 <script type="text/javascript" src="/javascripts/index.js">
 </script>
 
-<form action='/mytwatt' method="POST">
+<form id="tweetform" onsubmit="event.preventDefault(); submitTweet()">
   Write your tweet here:<br>
-  <input type='text' name='mytwatt' value=''>
+  <input id="newtweet" type='text' name='mytwatt' value=''>
   <input type='submit' value='submit'>
 </form>
 
 <br><br>
 
-<button type="button" onclick="loadTimeline()">Refresh Timeline</button>
 
 <p id="results"></p>
 
-<br><br>
-<h3>My Timeline</h3>
-
-<% for (i=0; i< myTimeline.length; i++) { %>
-  <p><li> <%= myTimeline[i].text%> </li></p>
-<%}%>
 
 </body>
 </html>
