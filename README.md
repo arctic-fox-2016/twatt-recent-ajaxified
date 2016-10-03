@@ -1,1 +1,3 @@
-# twatt-recent-ajaxified
+# twatt-recent
+
+/api/
