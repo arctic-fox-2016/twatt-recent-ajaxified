@@ -20,8 +20,9 @@ let getLatestTimeline = function(){
 let postTweet = function(){
   let xhr = new XMLHttpRequest();
   tweet = document.getElementById('tweet').value
-  xhr.open('POST', `http://localhost:3000/api/tweet?tweetbaru=${tweet}`, true)
+  xhr.open('POST', `http://localhost:3000/api/tweet?tweetbaru=${tweet}`, false)
   xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
   xhr.send()
   document.getElementById('tweet').value = ""
+  getLatestTimeline()
 }
