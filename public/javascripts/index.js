@@ -5,6 +5,7 @@ function submitTweet() {
     xhr.open('POST', `http://localhost:4000/api/posttwatt?status=${data}`);
     xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     xhr.send()
+
     loadData()
 }
 

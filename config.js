@@ -1,6 +1,6 @@
 module.exports = {
-	accessToken: '39072092-e6YhvErlQdMYGMMzYM0DjNaaaosRCOPNB8FvbQbDh',
-	accessTokenSecret: 'HeBXcNRIqnO8qnhxLjWlRDwNZdQINGI2lKoRXqhldZVur',
-	consumerKey: 'R9ozJqTthYMlci2p9WHgSWdpO',
-	consumerSecret: 'uLVxLhkgMQZWzt8OyfCsQ4xJiheFkyc59folu9LpwIcgCuS9I2'
+    accessToken: '	39072092-MfHYYBP39ozZJ1Gxy2U2gb74SJ8PR8wbtCnyiz6aH',
+    accessTokenSecret: 'K3eMtWWnpohwyqE9CueHdc73gzAP46VwAKwsei4PDCuxX',
+    consumerKey: 'M9gL64oF5lqbCD6LTozwUdIpp',
+    consumerSecret: '	rmtj4H6RSnaVZuxmOxdfE0HzvbKij7QPni78qRo5uyQMnCrxcW'
 }
