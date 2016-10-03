@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript" src="../public/javascripts/index.js"></script>
+</head>
+<body>
+  <h1>INI PERCOBAAN RECENT TIMELINE</h1>
+  <form class="form" onsubmit="postTweet()">
+    <input type="text" id="tweet"><input type="button" onclick="postTweet(); getLatestTimeline()" value="Tweet">
+  </form>
+
+  <input type="button" onclick=getLatestTimeline() value="Refresh">
+  <div id="timeline">
+  </div>
+  <div id="mytweet">
+  </div>
+
+</body>
+</html>
